@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdventureSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="background">背景画像</string>
+    <string name="title">データ構造とアルゴリズム</string>
+    <string name="startb">始めから</string>
+    <string name="continueb">続きから</string>
+    <string-array name="message1">
+        <item>僕はデン大工学部アイシー科2年の岡部健太郎だ。いよいよ後期を迎えた。</item>
+        <item>木曜日一時間目のデータ構造とアルゴリズムという科目を受けるのだが、どうも他の講義と様子がちがう</item>
+    </string-array>
+    <string-array name="message2">
+        <item>講義の印象だけど、結構難しいと思った</item>
+    </string-array>
+    <string-array name="question2">
+        <item>まじめに勉強する</item>
+        <item>とりあえず友達ができるか様子を見る</item>
+    </string-array>
+    <string-array name="messageending">
+        <item>とりあえず勉強してみたが、結構大変だった。</item>
+        <item>でも、必死にやっていたら、だんだん面白くなってきた。</item>
+        <item>そして、成績発表。なんとS評価をもらった。</item>
+        <item>途中から評価なんか忘れていたけど、やっぱり評価されたらうれしい。</item>
+        <item>そして、プログラミングが分かって楽しくなった。</item>
+        <item>End.</item>
+    </string-array>
+    <string-array name="messagebadend">
+        <item>友達が大丈夫と言うので、とりあえず合わせているうちに冬休みが来た。</item>
+        <item>とりあえず、どこかから流れてきたプログラムが送られてきたので、それを貼り付けてなんとかレポートを提出した。</item>
+        <item>ところが、評価はD。不合格だった。いったい何が悪かったんだろう？</item>
+        <item>End.</item>
+    </string-array>
+</resources>
