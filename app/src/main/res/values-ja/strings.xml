@@ -17,6 +17,8 @@
     <string-array name="question2">
         <item>まじめに勉強する</item>
         <item>とりあえず友達ができるか様子を見る</item>
+        <item>お前を殺す</item>
+        <item>お前が死ぬんやで</item>
     </string-array>
     <string-array name="messageending">
         <item>とりあえず勉強してみたが、結構大変だった。</item>
@@ -30,6 +32,15 @@
         <item>友達が大丈夫と言うので、とりあえず合わせているうちに冬休みが来た。</item>
         <item>とりあえず、どこかから流れてきたプログラムが送られてきたので、それを貼り付けてなんとかレポートを提出した。</item>
         <item>ところが、評価はD。不合格だった。いったい何が悪かったんだろう？</item>
+        <item>End.</item>
+    </string-array>
+    <string-array name="messagetrueend">
+        <item>突如、自分の中に殺人衝動が湧いた。</item>
+        <item>そこからの行動は早かった。まず学年トップ成績の奴を殺した。</item>
+        <item>しかしそうするとまた新たな奴がトップについてしまった。</item>
+        <item>なのでそいつも殺した。するとまた別の奴がトップについた。</item>
+        <item>それを繰り返している内に、自分以外誰もいなくなってしまった。</item>
+        <item>そう、自分は学年でワーストの成績だったのだ。</item>
         <item>End.</item>
     </string-array>
 </resources>

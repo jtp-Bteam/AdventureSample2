@@ -41,6 +41,7 @@ public abstract class AbstractScene implements Scene {
         builder.setCancelable(false);
         builder.setPositiveButton(getQuestion()[0], new Answer(0));
         builder.setNegativeButton(getQuestion()[1], new Answer(1));
+        builder.setNeutralButton(getQuestion()[2], new Answer(2));
         AlertDialog alert = builder.create();
         alert.show();
     }

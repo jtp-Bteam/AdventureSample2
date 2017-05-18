@@ -38,4 +38,13 @@
         <item>End.</item>
     </string-array>
     <string name="datebadend">3/15/2015</string>
+    <string-array name="messagetrueend">
+        <item>Suddenly, a homicide urge came up inside of me.</item>
+        <item>The action from there was early. First I killed the top grades.</item>
+        <item>But then another new guy stuck to the top.</item>
+        <item>So I also killed him. Then another guy got on top.</item>
+        <item>With it repeating, nobody has gone besides myself.</item>
+        <item>Yes, I was a worst grade in my grade.</item>
+        <item>End.</item>
+    </string-array>
 </resources>

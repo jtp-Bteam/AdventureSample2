@@ -1,4 +1,3 @@
-
 package jp.ac.dendai.c.jtp.adventuresample.scene;
 import jp.ac.dendai.c.jtp.adventuresample.R;
 public class Second extends AbstractScene {
@@ -9,6 +8,8 @@ public class Second extends AbstractScene {
                 return GameState.ending;
             case 1:
                 return GameState.badend;
+            case 2:
+                return GameState.trueend;
         }
         return null;
     }

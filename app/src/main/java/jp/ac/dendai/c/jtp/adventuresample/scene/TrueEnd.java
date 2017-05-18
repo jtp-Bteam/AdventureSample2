@@ -1,13 +1,13 @@
 package jp.ac.dendai.c.jtp.adventuresample.scene;
 import jp.ac.dendai.c.jtp.adventuresample.R;
-public class Ending extends AbstractScene {
+public class TrueEnd extends AbstractScene {
     @Override
     public int getImageId() {
         return R.drawable.ending;
     }
     @Override
     public int getMessageId() {
-        return R.array.messageending;
+        return R.array.messagetrueend;
     }
     @Override
     public int getQuestionId() {

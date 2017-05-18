@@ -1,7 +1,7 @@
 package jp.ac.dendai.c.jtp.adventuresample.scene;
 public enum GameState {
     first(new First()),second(new Second()),
-    ending(new Ending()), badend(new BadEnd())
+    ending(new Ending()), badend(new BadEnd()), trueend(new TrueEnd())
     ;
     private Scene scene;
     public Scene getScene(){

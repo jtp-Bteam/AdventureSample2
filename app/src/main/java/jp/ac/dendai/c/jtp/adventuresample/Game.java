@@ -19,9 +19,11 @@ public class Game implements Handler {
     }
     public void start() {
         if(scene==null) {
+            //System.out.println("シーンnull");
             activity.setContentView(title.getContentView());
             title.init(activity,new OnStartButtonClickListener(true), new OnStartButtonClickListener(false));
         }else{
+            //System.out.println("シーンnullじゃない");
             activity.setContentView(R.layout.activity_main);
             scene.start(this);
         }
