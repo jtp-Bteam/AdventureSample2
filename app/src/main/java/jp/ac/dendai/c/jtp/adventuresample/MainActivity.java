@@ -1,5 +1,8 @@
 package jp.ac.dendai.c.jtp.adventuresample;
 import jp.ac.dendai.c.jtp.adventuresample.scene.AbstractScene;
+
+import android.app.ActionBar;
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;

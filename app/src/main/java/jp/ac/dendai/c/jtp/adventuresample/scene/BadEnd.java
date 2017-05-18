@@ -21,4 +21,6 @@ public class BadEnd extends AbstractScene {
     public int getQuestionId() {
         return 0;
     }
+    @Override
+    public int getMusicId() { return R.raw.owarininokorumono; }
 }

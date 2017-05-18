@@ -1,6 +1,9 @@
 package jp.ac.dendai.c.jtp.adventuresample;
 import jp.ac.dendai.c.jtp.adventuresample.scene.GameState;
 import jp.ac.dendai.c.jtp.adventuresample.scene.Scene;
+
+import android.content.res.AssetFileDescriptor;
+import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -8,6 +11,9 @@ public class Game implements Handler {
     private ActionBarActivity activity;
     private Title title;
     private Scene scene;
+
+    private Music music = new Music();
+
     public Game(ActionBarActivity mainActivity) {
         this.activity = mainActivity;
         title = new Title();
@@ -16,15 +22,15 @@ public class Game implements Handler {
     public void step(Scene s) {
         scene = s;
         start();
+
     }
     public void start() {
         if(scene==null) {
-            //System.out.println("シーンnull");
             activity.setContentView(title.getContentView());
             title.init(activity,new OnStartButtonClickListener(true), new OnStartButtonClickListener(false));
         }else{
-            //System.out.println("シーンnullじゃない");
             activity.setContentView(R.layout.activity_main);
+            music.music(activity, scene);
             scene.start(this);
         }
     }

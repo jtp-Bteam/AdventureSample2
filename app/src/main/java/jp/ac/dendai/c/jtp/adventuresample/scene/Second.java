@@ -29,4 +29,6 @@ public class Second extends AbstractScene {
     public int getDateId() {
         return R.string.date2;
     }
+    @Override
+    public int getMusicId() { return R.raw.owarininokorumono; }
 }

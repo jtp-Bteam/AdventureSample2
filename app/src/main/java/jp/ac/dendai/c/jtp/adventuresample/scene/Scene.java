@@ -8,4 +8,5 @@ public interface Scene extends OnClickListener {
     int getImageId();
     int getQuestionId();
     int getDateId();
+    int getMusicId();
 }

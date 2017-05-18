@@ -1,11 +1,13 @@
 package jp.ac.dendai.c.jtp.adventuresample.scene;
 import jp.ac.dendai.c.jtp.adventuresample.Handler;
+import jp.ac.dendai.c.jtp.adventuresample.Music;
 import jp.ac.dendai.c.jtp.adventuresample.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
+import android.media.MediaPlayer;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -19,6 +21,7 @@ public abstract class AbstractScene implements Scene {
     public static void setActivity(Activity _activity){
         activity = _activity;
     }
+
     @Override
     public void onClick(View v){
         index++;

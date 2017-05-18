@@ -21,4 +21,6 @@ public class Ending extends AbstractScene {
     public int getDateId() {
         return R.string.dateending;
     }
+    @Override
+    public int getMusicId() { return R.raw.owarininokorumono; }
 }
