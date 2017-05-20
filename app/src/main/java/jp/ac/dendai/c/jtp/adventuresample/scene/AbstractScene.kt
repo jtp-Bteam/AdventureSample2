@@ -13,7 +13,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 
-abstract class AbstractScene : Scene {
+abstract class AbstractScene(private val act: Activity) : Scene {
     private var index: Int = 0
     private var handler: Handler? = null
     protected fun size(): Int {
@@ -80,10 +80,4 @@ abstract class AbstractScene : Scene {
         return act!!.resources.getStringArray(id)
     }
 
-    companion object {
-        private var act: Activity? = null
-        fun setActivity(_activity: Activity) {
-            act = _activity
-        }
-    }
 }
